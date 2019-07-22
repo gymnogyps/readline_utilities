@@ -1,1 +1,6 @@
+# The escape key followed by the control key and the A key being
+# struck simultanously. The result is to move the cursor to the 
+# beginning of the line deleting the first word and replacing it 
+# with the last word.
+
 "\e\C-a": "\e\C-h\C-a\C-y\ed"
